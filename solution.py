@@ -2,6 +2,8 @@ import pandas as pd
 import numpy as np
 from scipy.stats import norm
 
+chat_id = 1374771107
+
 def solution(x_success: int, x_cnt: int, y_success: int, y_cnt: int) -> bool:
   p1 = x_success / x_cnt
   p2 = y_success / y_cnt
