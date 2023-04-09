@@ -15,5 +15,5 @@ def solution(x_success: int, x_cnt: int, y_success: int, y_cnt: int) -> bool:
   p_value = 1 - norm.cdf(z)
   alpha = 0.02
   reject_null = p_value < alpha
-
-return reject_null
+  
+  return reject_null
